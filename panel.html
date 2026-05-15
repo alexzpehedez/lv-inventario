@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - LV</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <header class="topbar">
+    <h2>Visión General</h2>
+  </header>
+
+  <div class="actions">
+    <button onclick="irProducto()">AGREGAR PRODUCTO</button>
+    <button class="outline">ACTUALIZAR INVENTARIO</button>
+    <button onclick="irCatalogo()">VER CATÁLOGO</button>
+  </div>
+
+  <div class="cards">
+
+    <div class="box">
+      <h3>PRODUCTOS REGISTRADOS</h3>
+      <p class="big">120</p>
+    </div>
+
+    <div class="box warning">
+      <h3>BAJOS EN STOCK</h3>
+      <p class="big">8</p>
+    </div>
+
+    <div class="box danger">
+      <h3>SOBRE STOCK</h3>
+      <p class="big">3</p>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

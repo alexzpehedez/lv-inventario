@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuevo Producto - LV</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container centered">
+
+  <div class="form-card">
+
+    <h2>Detalles del Producto</h2>
+
+    <input type="text" placeholder="Nombre del producto">
+    <input type="text" placeholder="Código de identificación">
+
+    <div class="row">
+      <input type="number" placeholder="Valor">
+      <input type="number" placeholder="Cantidad">
+    </div>
+
+    <textarea placeholder="Descripción..."></textarea>
+
+    <select>
+      <option>Nuevo ingreso</option>
+      <option>Popular</option>
+      <option>Bajo demanda</option>
+    </select>
+
+    <button onclick="guardarProducto()">GUARDAR PRODUCTO</button>
+    <button class="outline" onclick="volver()">VOLVER</button>
+
+  </div>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
